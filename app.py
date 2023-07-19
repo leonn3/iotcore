@@ -34,7 +34,7 @@ from plotly.subplots import make_subplots
 sql_server = "192.168.1.23"
 sql_database = "IOT"
 sql_username = "sa"
-sql_password = "Wlp23@280@03"
+sql_password = ""
 
 server_flask = Flask(__name__)
 #app = Dash(__name__, external_stylesheets=[dbc.themes.VAPOR],server=server_flask)
