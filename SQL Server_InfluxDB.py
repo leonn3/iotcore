@@ -14,7 +14,7 @@ import seaborn as sns
 serverdb = '192.168.1.29'
 database = 'IOT'
 username = 'sa'
-password = 'Wlp23@280@03'
+password = ''
 
 # Configurações do InfluxDB
 token = "A2XxKTpfiKsBqbdNolpd0LrHty2LB2GO6pnmJZqC2GKzihJlTvPF_YkffhkOSJCuJWhctu7NdTmSVvXFY5l2iA=="
