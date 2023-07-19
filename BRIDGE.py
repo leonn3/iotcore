@@ -27,7 +27,7 @@ import pymssql
 serverdb = '192.168.1.23' 
 database = 'IOT' 
 username = 'sa' 
-password = 'Wlp23@280@03' 
+password = '' 
 #cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+serverdb+';DATABASE='+database+';UID='+username+';PWD='+ password)
 #cursor = cnxn.cursor()
 
@@ -95,7 +95,7 @@ print("Server started at {}".format(url))
 
 #############OffLINE RUN########################################################
 #You can generate a Token from the "Tokens Tab" in the UI
-token = "A2XxKTpfiKsBqbdNolpd0LrHty2LB2GO6pnmJZqC2GKzihJlTvPF_YkffhkOSJCuJWhctu7NdTmSVvXFY5l2iA=="
+token = "A2XxKTpfNdTmSVvXFY5l2iA=="
 org = "UFPA"
 bucket = "IOT"
 url_="http://localhost:8086"
@@ -103,8 +103,8 @@ hostname = os.popen('hostname -I').read()[0:14]
 port_=8086
 
 #############OnLINE RUN########################################################
-# token = "tWcz-iDE-UDKAzjBdyhlqtTpXyPO0aaYfA76sYXX8rMN0HV4HAJFqtjg_SwT4rOqAqLRRqyePol-6zfYzspsgg==" #online
-# org = "woldson.gomes@albras.net" 
+# token = "tWzfYzspsgg==" #online
+# org = "" 
 # bucket = "IOT"
 # url_ = "https://eastus-1.azure.cloud2.influxdata.com" 
 # hostname = os.popen('hostname -I').read()[0:14]
