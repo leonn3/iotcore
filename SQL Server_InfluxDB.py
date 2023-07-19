@@ -17,7 +17,7 @@ username = 'sa'
 password = ''
 
 # Configurações do InfluxDB
-token = "A2XxKTpfiKsBqbdNolpd0LrHty2LB2GO6pnmJZqC2GKzihJlTvPF_YkffhkOSJCuJWhctu7NdTmSVvXFY5l2iA=="
+token = "A2XVvXFY5l2iA=="
 org = "UFPA"
 bucket = "IOT"
 url = "http://localhost:8086"
